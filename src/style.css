@@ -1,0 +1,69 @@
+.APP{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container{
+    max-width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.list-group{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.list-group-item{
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.5;
+     
+
+}
+
+
+
+
+
+
+.pagination{
+    display: flex;
+}
+
+
+
+.page-item{
+    list-style: none;
+}
+
+
+
+
+
+.page-link{
+    color:#0d7bff;
+    background-color: #fff;
+    border:1px solid #dee2e6;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.active-page{
+    background-color: lightblue;
+    color:white;
+}
